@@ -14,6 +14,7 @@
 # docker build -t osm-server .
 
 docker run \
+    -v $PWD/scripts:/scripts \
     -v $PWD/tiles:/tiles \
     -v osm-data:/var/lib/postgresql/12/main \
     -it osm-server

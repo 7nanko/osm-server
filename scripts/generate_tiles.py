@@ -172,5 +172,5 @@ if __name__ == "__main__":
     mapfile = "/home/renderer/src/openstreetmap-carto/mapnik.xml"
     tile_dir = "/tiles"
 
-    bbox = (875, 433, 876, 434)
+    bbox = (874, 432, 877, 435)
     render_tiles(bbox, mapfile, tile_dir, 10, 18, num_threads=8)
